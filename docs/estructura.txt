@@ -1,0 +1,30 @@
+Análisis de empleo en México
+
+proyecto_empleos/
+│
+├── data/                    # Todos los datos relacionados
+│   ├── raw/                 # Datos crudos (originales, no modificados)
+│   ├── processed/           # Datos limpios y procesados
+│   ├── interim/             # Datos intermedios (transformaciones parciales)
+│   └── external/            # Datos de fuentes externas
+│
+├── notebooks/               # Jupyter notebooks de exploración y análisis
+│   ├── 01-exploracion.ipynb
+│   └── 02-analisis.ipynb
+│
+├── src/                     # Código fuente (scripts reutilizables)
+│   ├── data_cleaning.py
+│   ├── visualization.py
+│   └── analysis.py
+│
+├── docs/                    # Documentación del proyecto
+│   ├── requirements.txt     # Dependencias
+│   ├── informe_final.md
+│   └── presentacion.pptx
+│
+├── reports/                 # Reportes y visualizaciones finales
+│   ├── figures/             # Gráficos y visualizaciones
+│   └── resultados.pdf
+│
+├── .gitignore               # Archivos a ignorar en Git
+└── README.md                # Descripción del proyecto
